@@ -1,0 +1,198 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L wecker:MSP430FR4133 U1
+U 1 1 5D9F09EC
+P 4150 4700
+F 0 "U1" H 4150 5981 50  0000 C CNN
+F 1 "MSP430FR4133" H 4150 5890 50  0000 C CNN
+F 2 "Package_SO:TSSOP-48_6.1x12.5mm_P0.5mm" H 3150 2800 50  0001 C CIN
+F 3 "http://www.ti.com/lit/ds/symlink/msp430f2112.pdf" H 3800 5650 50  0001 C CNN
+	1    4150 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x20 J1
+U 1 1 5D9F24AB
+P 4500 1650
+F 0 "J1" V 4717 1596 50  0000 C CNN
+F 1 "Conn_01x20" V 4626 1596 50  0000 C CNN
+F 2 "wecker:LCD-20" H 4500 1650 50  0001 C CNN
+F 3 "~" H 4500 1650 50  0001 C CNN
+	1    4500 1650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2950 6000 950  6000
+Wire Wire Line
+	950  6000 950  2050
+Wire Wire Line
+	950  2050 3600 2050
+Wire Wire Line
+	3600 2050 3600 1850
+Wire Wire Line
+	3700 1850 3700 2100
+Wire Wire Line
+	3700 2100 1000 2100
+Wire Wire Line
+	1000 2100 1000 5900
+Wire Wire Line
+	1000 5900 2950 5900
+Wire Wire Line
+	2950 5800 1050 5800
+Wire Wire Line
+	1050 5800 1050 2150
+Wire Wire Line
+	1050 2150 3800 2150
+Wire Wire Line
+	3800 2150 3800 1850
+Wire Wire Line
+	3900 1850 3900 2200
+Wire Wire Line
+	3900 2200 1100 2200
+Wire Wire Line
+	1100 2200 1100 5700
+Wire Wire Line
+	1100 5700 2950 5700
+Wire Wire Line
+	2950 4000 2200 4000
+Wire Wire Line
+	2200 4000 2200 2250
+Wire Wire Line
+	2200 2250 4000 2250
+Wire Wire Line
+	4000 2250 4000 1850
+Wire Wire Line
+	4100 1850 4100 2300
+Wire Wire Line
+	4100 2300 2250 2300
+Wire Wire Line
+	2250 2300 2250 4100
+Wire Wire Line
+	2250 4100 2950 4100
+Wire Wire Line
+	2950 4200 2300 4200
+Wire Wire Line
+	2300 4200 2300 2350
+Wire Wire Line
+	2300 2350 4200 2350
+Wire Wire Line
+	4200 2350 4200 1850
+Wire Wire Line
+	4300 1850 4300 2400
+Wire Wire Line
+	4300 2400 2350 2400
+Wire Wire Line
+	2350 2400 2350 4300
+Wire Wire Line
+	2350 4300 2950 4300
+Wire Wire Line
+	2950 4400 2400 4400
+Wire Wire Line
+	2400 4400 2400 2450
+Wire Wire Line
+	2400 2450 4400 2450
+Wire Wire Line
+	4400 2450 4400 1850
+Wire Wire Line
+	4500 1850 4500 2500
+Wire Wire Line
+	4500 2500 2450 2500
+Wire Wire Line
+	2450 2500 2450 4500
+Wire Wire Line
+	2450 4500 2950 4500
+Wire Wire Line
+	2950 4600 2500 4600
+Wire Wire Line
+	2500 4600 2500 2550
+Wire Wire Line
+	2500 2550 4600 2550
+Wire Wire Line
+	4600 2550 4600 1850
+Wire Wire Line
+	4700 1850 4700 2600
+Wire Wire Line
+	4700 2600 2550 2600
+Wire Wire Line
+	2550 2600 2550 4700
+Wire Wire Line
+	2550 4700 2950 4700
+Wire Wire Line
+	5350 6150 6300 6150
+Wire Wire Line
+	6300 6150 6300 2600
+Wire Wire Line
+	6300 2600 4800 2600
+Wire Wire Line
+	4800 2600 4800 1850
+Wire Wire Line
+	4900 1850 4900 2550
+Wire Wire Line
+	4900 2550 6350 2550
+Wire Wire Line
+	6350 2550 6350 6250
+Wire Wire Line
+	6350 6250 5350 6250
+Wire Wire Line
+	5350 6350 6400 6350
+Wire Wire Line
+	6400 6350 6400 2500
+Wire Wire Line
+	6400 2500 5000 2500
+Wire Wire Line
+	5000 2500 5000 1850
+Wire Wire Line
+	5100 1850 5100 2450
+Wire Wire Line
+	5100 2450 6450 2450
+Wire Wire Line
+	6450 2450 6450 6450
+Wire Wire Line
+	6450 6450 5350 6450
+Wire Wire Line
+	5350 4850 5750 4850
+Wire Wire Line
+	5750 4850 5750 2400
+Wire Wire Line
+	5750 2400 5200 2400
+Wire Wire Line
+	5200 2400 5200 1850
+Wire Wire Line
+	5300 1850 5300 2350
+Wire Wire Line
+	5300 2350 5800 2350
+Wire Wire Line
+	5800 2350 5800 4950
+Wire Wire Line
+	5800 4950 5350 4950
+Wire Wire Line
+	5850 5050 5850 2300
+Wire Wire Line
+	5850 2300 5400 2300
+Wire Wire Line
+	5400 2300 5400 1850
+Wire Wire Line
+	5500 1850 5500 2250
+Wire Wire Line
+	5500 2250 5900 2250
+Wire Wire Line
+	5900 2250 5900 5150
+Wire Wire Line
+	5900 5150 5350 5150
+Wire Wire Line
+	5350 5050 5850 5050
+$EndSCHEMATC
