@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name wecker)(type Legacy)(uri ${KIPRJMOD}/wecker.lib)(options "")(descr ""))
+  (lib (name wecker-rescue)(type Legacy)(uri ${KIPRJMOD}/wecker-rescue.lib)(options "")(descr ""))
 )

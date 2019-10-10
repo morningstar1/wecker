@@ -409,7 +409,7 @@ F 3 "~" H 8300 5850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP1
+L wecker-rescue:TestPoint-Connector TP1
 U 1 1 5DAABA72
 P 7250 4550
 F 0 "TP1" H 7308 4668 50  0000 L CNN
@@ -463,7 +463,7 @@ Wire Wire Line
 Wire Wire Line
 	7900 5050 5350 5050
 $Comp
-L Connector:Conn_01x05_Male J2
+L wecker-rescue:Conn_01x05_Male-Connector J2
 U 1 1 5DAD772A
 P 5050 2950
 F 0 "J2" V 5112 3194 50  0000 L CNN
