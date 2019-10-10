@@ -248,7 +248,7 @@ U 1 1 5DA1CAE3
 P 2600 4950
 F 0 "Y1" H 2600 4850 50  0000 C CNN
 F 1 "32.768 kHz" H 2600 5050 50  0000 C CNN
-F 2 "Crystal:Crystal_HC18-U_Horizontal" H 2600 4950 50  0001 C CNN
+F 2 "Crystal:Crystal_DS26_D2.0mm_L6.0mm_Horizontal" H 2600 4950 50  0001 C CNN
 F 3 "~" H 2600 4950 50  0001 C CNN
 	1    2600 4950
 	-1   0    0    1   
@@ -468,7 +468,7 @@ U 1 1 5DAD772A
 P 5050 2950
 F 0 "J2" V 5112 3194 50  0000 L CNN
 F 1 "Conn_01x05_Male" V 5203 3194 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Horizontal" H 5050 2950 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 5050 2950 50  0001 C CNN
 F 3 "~" H 5050 2950 50  0001 C CNN
 	1    5050 2950
 	0    1    1    0   
@@ -569,17 +569,6 @@ Wire Wire Line
 Wire Wire Line
 	9050 4550 9450 4550
 $Comp
-L Transistor_BJT:PN2222A Q1
-U 1 1 5DB2D7A4
-P 9650 4550
-F 0 "Q1" H 9840 4596 50  0000 L CNN
-F 1 "PN2222A" H 9840 4505 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 9850 4475 50  0001 L CIN
-F 3 "http://www.fairchildsemi.com/ds/PN/PN2222A.pdf" H 9650 4550 50  0001 L CNN
-	1    9650 4550
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+BATT #PWR0108
 U 1 1 5DB2F2CF
 P 10050 3100
@@ -626,4 +615,15 @@ F 3 "" H 9750 4850 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9750 4850 9750 4750
+$Comp
+L Transistor_BJT:BC818 Q1
+U 1 1 5DA08DFD
+P 9650 4550
+F 0 "Q1" H 9841 4596 50  0000 L CNN
+F 1 "BC818" H 9841 4505 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 9850 4475 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/BC/BC818.pdf" H 9650 4550 50  0001 L CNN
+	1    9650 4550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
